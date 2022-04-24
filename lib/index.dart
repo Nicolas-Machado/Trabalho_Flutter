@@ -55,12 +55,14 @@ class _HomeSenacIndexState extends State<HomeSenacIndex> {
           child: Column(
         children: [
           Container(
+            padding: EdgeInsets.all(20),
             child: Text(
               "Sobre o Senac",
               textScaleFactor: 2.0,
             ),
           ),
           Container(
+            padding: EdgeInsets.all(20),
             child: Text(
               "Desde 1946, trabalhamos para transformar vidas. Aqui, pessoas de todas as idades são incentivadas a desenvolver seu potencial para expandir suas possibilidades de futuro."
               "É assim que formamos profissionais que sabem fazer grandes ideias virarem realidade.",
@@ -137,7 +139,7 @@ class _CursoSenacState extends State<CursoSenac> {
           child: Column(
         children: [
           Container(
-            padding: EdgeInsets.all(10),
+            padding: EdgeInsets.all(20),
             child: Text(
               "Análise e Desenvolvimento de Sistemas",
               textScaleFactor: 1.5,
@@ -148,7 +150,7 @@ class _CursoSenacState extends State<CursoSenac> {
             child: Image.asset("images/analise.jpg"),
           ),
           Container(
-            width: 350,
+            padding: EdgeInsets.all(20),
             child: Text(
               "Este curso prepara você para atuar com análise e desenvolvimento de softwares e sistemas digitais, com foco em programação e manutenção de demandas para desktop e web."
               "Também aprenderá na prática a analisar, projetar, especificar, documentar, testar e implementar sistemas com as técnicas e ferramentas mais atuais do mercado, em uma infraestrutura de ponta.",
@@ -156,7 +158,7 @@ class _CursoSenacState extends State<CursoSenac> {
             ),
           ),
           Container(
-            padding: EdgeInsets.all(10),
+            padding: EdgeInsets.all(20),
             child: Text(
               "Design de Animação",
               textScaleFactor: 1.5,
@@ -167,9 +169,10 @@ class _CursoSenacState extends State<CursoSenac> {
             child: Image.asset("images/design.jpg"),
           ),
           Container(
-            width: 350,
+            padding: EdgeInsets.all(20),
             child: Text(
-              "Quer atuar na criação e direção de projetos inovadores de filmes de animação? Aqui, você encontrará toda a formação que precisa, utilizando ferramentas e softwares, técnicas e conceitos estéticos.Aprenderá na prática técnicas importantes, como stop motion, 2D e 3D, e vivenciará todas as etapas de produção de uma animação, desde o roteiro e storyboard até os efeitos especiais e sonorização.",
+              "Quer atuar na criação e direção de projetos inovadores de filmes de animação? Aqui, você encontrará toda a formação que precisa, utilizando ferramentas e softwares,"
+              "técnicas e conceitos estéticos.Aprenderá na prática técnicas importantes, como stop motion, 2D e 3D, e vivenciará todas as etapas de produção de uma animação, desde o roteiro e storyboard até os efeitos especiais e sonorização.",
               textScaleFactor: 1.2,
             ),
           ),
